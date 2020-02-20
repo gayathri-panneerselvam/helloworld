@@ -18,7 +18,7 @@ pipeline {
         stage(build){
             steps {
                 sh 'npm install -g @angular/cli'
-                sh 'npm install node-sass@4.10.0'
+
                 sh 'npm install'
                 sh 'ng serve -o'
                 
